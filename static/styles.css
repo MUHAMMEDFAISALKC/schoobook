@@ -155,6 +155,9 @@ body {
 
 #login-body {
     display: flex;
+    background-color: #2e944b;
+    align-items:center;
+    justify-content: space-around;
     /*
     position: fixed;
     width: 100vw;
@@ -162,6 +165,7 @@ body {
     */
 }
 
+/*
 section {
     position: fixed;
     height: 100vh;
@@ -172,6 +176,11 @@ section {
     left: 13vw;
     width: 50%;
     height: 460px;
+    overflow-y: auto;
+}
+*/
+#login-section {
+    display: flex;
     overflow-y: auto;
 }
 
@@ -185,13 +194,14 @@ section {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
 
-
+/*
 #student-login {
     display: flex;
     width: 50%;
     left: 58vw;
     height: 460px;
 }
+*/
 
 #form-student {
     background-color: white;
