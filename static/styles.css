@@ -1,0 +1,272 @@
+nav .navbar-brand
+{
+    /* size for brand */
+    font-size: xx-large;
+}
+
+/* Colors for brand */
+nav .navbar-brand .blue
+{
+    color: #537fbe;
+}
+nav .navbar-brand .red
+{
+    color: #ea433b;
+}
+nav .navbar-brand .yellow
+{
+    color: #f5b82e;
+}
+nav .navbar-brand .green
+{
+    color: #2e944b;
+}
+
+main .form-control
+{
+    /* Center form controls */
+    display: inline-block;
+
+    /* Override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+main
+{
+    /* Scroll horizontally as needed */
+    overflow-x: auto;
+    /* Center contents */
+    text-align: center;
+}
+
+.section
+{
+    padding-bottom: 1rem;
+    padding-left:2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+}
+
+.section:hover
+{
+    background-color: #f5f5f5;
+    transition: color 2s ease-in-out, background-color 0.15s ease-in-out;
+}
+
+table
+{
+    background-color: transparent;
+    width: 100%;
+}
+
+table th
+{
+    padding: 0.4rem;
+    vertical-align: middle;
+    font-size: 18px;
+}
+table td
+{
+    padding: 0.4rem;
+    vertical-align: middle;
+    font-size: 15px;
+}
+
+thead
+{
+    background-color: #80aaff;
+    border:2px solid #80aaff;
+}
+
+tbody tr:nth-of-type(odd)
+{
+    background-color: rgb(179, 208, 255, 0.3);
+}
+
+tbody tr:nth-of-type(even)
+{
+    background-color: #ccddff;
+}
+
+
+div.headin
+{
+    color:white;
+    background-color:rgb(102, 153, 255);
+    width: 100%;
+    padding: 0.5px;
+    position: relative;
+    left: 20px;
+    top: 5px;
+    right:20px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-bottom:0px;
+}
+
+div.leftbox
+{
+    position:relative;
+    border:2px solid #6495ED;
+    width: 100%;
+    top:0px;
+    left: 20px;
+    right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top:0px;
+}
+
+.headrows {
+    color: white; 
+    font-weight: bold; 
+    font-family: sans-serif; 
+    font-size: 30;
+    text-align: left;
+    margin-top: 100;
+}
+.applogy {
+    width: 300px;
+    height: 50px; 
+    vertical-align: middle; 
+    border-radius: 100px; 
+    background-color: DeepSkyBlue;
+}
+
+
+.frame
+{
+    color: black;
+    position:relative;
+    animation-name: example;
+    animation-duration: 0.20s;
+    animation-iteration-count:10;
+    animation-delay: 1s;
+}
+
+@keyframes example{
+    from {color:black;}
+    to{color:red;}
+}
+body {
+    background:  #F0FFFF url("/static/login/background1.jpg") no-repeat fixed center; 
+    background-size: 100%;
+}
+
+/* General login page  */
+
+#login-body {
+    position: fixed;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+section {
+    position: fixed;
+    height: 100vh;
+}
+
+#staff-login {
+    display: flex;
+    left: 13vw;
+    width: 50%;
+    height: 460px;
+    overflow-y: auto;
+}
+
+#form-staff {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 70%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+
+#student-login {
+    display: flex;
+    width: 50%;
+    left: 58vw;
+    height: 460px;
+}
+
+#form-student {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 70%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+/* staff login page */
+.form-area {
+    display: flex;
+    background-color: rgb(255, 255, 255, 0.2);
+    border-radius: 20px;
+    opacity: 100%;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+.login-form {
+    background-color: rgb(255, 255, 255);
+    
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+    
+}
+/*    footer of staff login and student login */ 
+.footer {
+    margin-top: 500px;
+    color: rgb(255, 255, 255);
+    text-decoration: 'none' !important;
+}
+
+/* student login page */
+
+/* staff index page */
+#staff-index-page {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    align-items: flex-start;
+    background-color:rgb(255, 255, 255, 0.2);
+    padding: 15px;
+}
+
+.staff-image {
+    border-radius: 15px;
+    margin:20px;
+}
+
+.backgrd {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    margin:20px; 
+    border-radius: 15px;
+    padding: 15px;
+}
+.backgrd span {
+    color:rgb(0, 0, 0);
+    text-align: left;
+    font-size: large;
+    font-weight: bold;
+    background-color: #eeeeee;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    border-width: 2px;
+    border-style: ridge;
+    border-color: white;
+}
+.backgrd span:hover {
+    border-left-style: solid;
+    border-left-color: DodgerBlue;
+    border-left-width: 4px;
+}
+
