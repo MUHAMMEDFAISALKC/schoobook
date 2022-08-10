@@ -61,13 +61,13 @@ table
 
 table th
 {
-    
+    padding: 0.4rem;
     vertical-align: middle;
     font-size:medium;
 }
 table td
 {
-    
+    padding: 0.4rem;
     vertical-align: middle;
     font-size:medium;
 }
@@ -114,7 +114,6 @@ div.leftbox
     font-family: sans-serif; 
     font-size: 30;
     text-align: left;
-    margin-top: 100;
 }
 .applogy {
     width: 300px;
@@ -128,7 +127,6 @@ div.leftbox
 .frame
 {
     color: black;
-    position:relative;
     animation-name: example;
     animation-duration: 0.20s;
     animation-iteration-count:10;
