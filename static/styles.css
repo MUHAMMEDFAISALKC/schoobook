@@ -154,10 +154,12 @@ body {
 /* General login page  */
 
 #login-body {
-    position: fixed;
     display: flex;
+    /*
+    position: fixed;
     width: 100vw;
     height: 100vh;
+    */
 }
 
 section {
