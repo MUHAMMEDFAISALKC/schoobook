@@ -149,16 +149,12 @@ div.leftbox
 body {
     background:  #F0FFFF url("/static/login/background1.jpg") no-repeat fixed center; 
     background-size: 100%;
-    display: flex;
-    flex-direction: column;
 }
 
 @media only screen and (max-width: 768px) {
     body {
-        background:  #F0FFFF url("/static/login/background1.jpg") no-repeat auto center; 
+        background:  #F0FFFF url("/static/login/background2.jpg") no-repeat fixed center; 
         background-size: 100%;
-        display: flex;
-        flex-direction: column;
     }
 }
 /* General login page  */
@@ -167,7 +163,8 @@ body {
     display: flex;
     align-items:center;
     align-content: center;
-    justify-content:space-between; 
+    justify-content:space-between;
+    flex-wrap: wrap;
 }
 
 #login-section {
