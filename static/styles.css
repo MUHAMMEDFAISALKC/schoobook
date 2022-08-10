@@ -151,12 +151,17 @@ body {
     background-size: 100%;
     display: flex;
     flex-direction: column;
+    width: 100vw;
 }
 
 @media only screen and (max-width: 768px) {
     body {
         background:  #F0FFFF url("/static/login/background2.jpg") no-repeat fixed center; 
         background-size: 100%;
+        width: 100vw;
+    }
+    .header-band {
+        width: 100vw;
     }
 }
 /* General login page  */
