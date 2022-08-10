@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Staff Page
+{% endblock %}
+
+{% block main %}
+    <div id="staff-index-page">
+        <div style="width: 25%;">
+            <img class="staff-image" src="/static/login/staff.jpg">
+        </div>
+        <div class="backgrd" style="width: 70%; height: 223px;">
+            {% for row in rows %}
+            <div style="display: flex; flex-direction: column; width: 35%;">
+                <span>Name of Staff</span>
+                <span>Staff Number</span>
+                <span>Date of Birth</span>
+                <span>Date of Joining</span>
+                <span>Subject</span>
+            </div>
+            <div style="display: flex; flex-direction: column; width: 65%;">
+                <span>: {{name}}</span>
+                <span>: {{row.sregno}}</span>
+                <span>: {{row.sdob}}</span>
+                <span>: 01-01-2010</span>
+                <span>: Mathematics, Science</span>
+            </div>
+            {% endfor %}
+        </div>
+        <H6 class="backgrd">The staff {{name}} has loged in</H6>
+    </div>
+{% endblock %}
