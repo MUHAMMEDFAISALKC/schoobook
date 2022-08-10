@@ -165,10 +165,9 @@ body {
 
 #login-body {
     display: flex;
-    background-color:#f5b82e;
     align-items:center;
     align-content: center;
-    justify-content: space-around; 
+    justify-content:space-between; 
 }
 
 #login-section {
