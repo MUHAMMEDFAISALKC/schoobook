@@ -39,6 +39,10 @@ main
     text-align: center;
 }
 
+.main-container {
+    margin: 2px;
+}
+
 .section
 {
     padding-bottom: 1rem;
