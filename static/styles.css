@@ -155,7 +155,7 @@ body {
 
 #login-body {
     display: flex;
-    background-color: #2e944b;
+    background-color:#6495ED;
     align-items:center;
     justify-content: space-around;
     /*
@@ -165,27 +165,13 @@ body {
     */
 }
 
-/*
-section {
-    position: fixed;
-    height: 100vh;
-}
-
-#staff-login {
-    display: flex;
-    left: 13vw;
-    width: 50%;
-    height: 460px;
-    overflow-y: auto;
-}
-*/
 #login-section {
     display: flex;
     overflow-y: auto;
 }
 
-#form-staff {
-    background-color: white;
+.form-staff-student {
+    background-color: rgb(255, 255, 255);
     border-radius: 20px;
     padding: 20px;
     padding-left: 100px;
@@ -194,24 +180,7 @@ section {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
 
-/*
-#student-login {
-    display: flex;
-    width: 50%;
-    left: 58vw;
-    height: 460px;
-}
-*/
 
-#form-student {
-    background-color: white;
-    border-radius: 20px;
-    padding: 20px;
-    padding-left: 100px;
-    padding-right: 100px;
-    height: 70%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
-}
 
 /* staff login page */
 .form-area {
