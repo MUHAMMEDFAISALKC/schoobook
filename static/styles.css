@@ -149,6 +149,8 @@ div.leftbox
 body {
     background:  #F0FFFF url("/static/login/background1.jpg") no-repeat fixed center; 
     background-size: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 @media only screen and (max-width: 768px) {
@@ -163,7 +165,7 @@ body {
     display: flex;
     align-items:center;
     align-content: center;
-    justify-content:space-between;
+    justify-content:space-around;
     flex-wrap: wrap;
 }
 
