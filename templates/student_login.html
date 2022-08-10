@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Student Log In
+{% endblock %}
+    {% block main %}
+    <div class="form-area">
+        <form class="login-form"   action="/student_login" method="post">
+            <div class="form-group">
+                <img src="/static/login/student.jpg">
+            </div>
+            <div class="form-group">
+                <input autocomplete="off" autofocus class="form-control" name="regno" placeholder="Register Number" type="text">
+            </div>
+            <div class="form-group">
+                <input class="form-control" name="DOB" placeholder="Date of Birth DD-MM-YYYY" type="type">
+            </div>
+            <button class="btn btn-primary" type="submit">Log In</button>
+        </form>
+        <p><a class="footer" href="{{url_for('download', filename='students_RegNo.xlsx')}}">For demo purpose please download Student details</a></p>
+    </div>
+{% endblock %}
