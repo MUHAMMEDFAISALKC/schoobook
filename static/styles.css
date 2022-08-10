@@ -34,7 +34,7 @@ main .form-control
 main
 {
     /* Scroll horizontally as needed */
-    overflow-x: auto;
+    /*overflow-x: auto;*/
     /* Center contents */
     text-align: center;
 }
