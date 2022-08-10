@@ -1,0 +1,5 @@
+cs50
+SQL
+Flask
+Flask-Session
+requests
